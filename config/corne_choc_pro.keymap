@@ -48,7 +48,7 @@
             bindings = <
 &trans  &kp RA(Q)  &trans     &mt RA(E) LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &mt RA(N5) LC(UP_ARROW)  &trans       &trans  &kp RA(Y)  &trans    &trans    &trans     &kp RA(P)  &kp DEL
 &trans  &trans     &kp RA(S)  &kp LEFT_BRACE              &kp RIGHT_BRACE        &trans                   &kp LA(TAB)  &trans  &kp LEFT   &kp DOWN  &kp UP    &kp RIGHT  &trans     &trans
-&trans  &trans     &trans     &kp LEFT_BRACKET            &kp RIGHT_BRACKET      &trans                                        &trans     &trans    &trans    &trans     &trans     &trans
+&trans  &trans     &trans     &kp LEFT_BRACKET            &kp RIGHT_BRACKET      &kp LA(TAB)                                   &trans     &trans    &trans    &trans     &trans     &trans
                               &kp LCTRL                   &trans                 &kp SPACE                                     &kp ENTER  &trans    &kp LGUI
             >;
         };
