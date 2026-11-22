@@ -41,14 +41,14 @@
         extra_layer_1 {
             display-name = "EXTRA 1";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp N7  &kp N8  &kp N9  &trans  &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp N0  &trans  &trans  &bt BT_CLR  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &bootloader  &studio_unlock  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&tog 4  &trans  &trans  &trans  &trans  &trans  &trans  &kp N7  &kp N8  &kp N9  &trans  &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp N0  &trans  &trans  &bt BT_CLR  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &bootloader  &studio_unlock  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         extra_layer_2 {
-            display-name = "EXTRA 2";
+            display-name = "Z-LANDER";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&tog 4  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
             >;
         };
 

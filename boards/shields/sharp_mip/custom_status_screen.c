@@ -6,6 +6,9 @@
  */
 
 #include "widgets/status.h"
+#if IS_ENABLED(CONFIG_Z_LANDER)
+#include "zmk_zlander.h"
+#endif
 
 #include <zephyr/logging/log.h>
 LOG_MODULE_DECLARE(zmk, CONFIG_ZMK_LOG_LEVEL);
@@ -22,6 +25,10 @@ lv_obj_t *zmk_display_status_screen() {
 #if IS_ENABLED(CONFIG_SHARP_MIP_WIDGET_STATUS)
     zmk_widget_status_init(&status_widget, screen);
     lv_obj_align(zmk_widget_status_obj(&status_widget), LV_ALIGN_TOP_LEFT, 0, 0);
+#endif
+
+#if IS_ENABLED(CONFIG_Z_LANDER)
+    zmk_zlander_init(screen);
 #endif
 
     return screen;
